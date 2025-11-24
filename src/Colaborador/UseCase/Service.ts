@@ -5,7 +5,8 @@ import { RepositoryInterface } from "../Adapter/RepositoryInterface";
 import { UseCaseInterface } from "./UseCaseInterface";
 
 export class Service implements UseCaseInterface {
-  private repository: RepositoryInterface;
+  private reposi
+  tory: RepositoryInterface;
 
   constructor(repository: RepositoryInterface) {
     this.repository = repository;
